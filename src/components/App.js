@@ -24,6 +24,24 @@ function App() {
         tel={contacts[2].phone}
         email={contacts[2].email}
       />
+      <Card
+        name={contacts[3].name}
+        img={contacts[3].imgURL}
+        tel={contacts[3].phone}
+        email={contacts[3].email}
+      />
+      <Card
+        name={contacts[4].name}
+        img={contacts[4].imgURL}
+        tel={contacts[4].phone}
+        email={contacts[4].email}
+      />
+      <Card
+        name={contacts[5].name}
+        img={contacts[5].imgURL}
+        tel={contacts[5].phone}
+        email={contacts[5].email}
+      />
     </div>
   );
 }
